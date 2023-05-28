@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicío-02</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora de Salário</h2>
+        <label for="hourlyRate">Valor por hora (em reais):</label>
+        <input type="number" id="hourlyRate" step="0.01" required>
+        <label for="hoursWorked">Horas trabalhadas no mês:</label>
+        <input type="number" id="hoursWorked" required>
+        <button onclick="calculateSalary()">Calcular</button>
+        <div id="result"></div>
+      </div>
+</body>
+<script src="JavaScript.js"></script>
+</html>
